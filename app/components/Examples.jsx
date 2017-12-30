@@ -1,7 +1,6 @@
 var React = require('react');
 var {Link} = require('react-router');
 
-
 var Examples = (props) => {
   return (
     <div>
@@ -9,10 +8,10 @@ var Examples = (props) => {
       <p>Here are a few example locations to try out:</p>
       <ol>
         <li>
-            <Link to='/?location=buea'>Buea</Link>
+          <Link to='/?location=Philadelphia'>Philadelphia, PA</Link>
         </li>
         <li>
-          <Link to='/?location=limbe'>Limbe</Link>
+          <Link to='/?location=Rio'>Rio, Brazil</Link>
         </li>
       </ol>
     </div>
